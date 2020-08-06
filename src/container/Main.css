@@ -1,0 +1,27 @@
+#svs {
+    border: 1px dotted #07a7f7;
+    background: #07a7f7;
+  }
+  .main-wrapper{
+      margin-top: 1rem;
+      text-align: center !important;
+  }
+  .score-undo-wrapp{
+    margin: auto;
+    max-width: 630px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .score-undo-wrapp button{
+    background-color: rgba(255, 255, 255,1);
+    margin: .25rem;
+    font:  20px Arial;
+    color: rgba(0, 0, 0,1);
+    padding: .25rem;
+  }
+  .score-undo-wrapp >span{
+      color: #15ff00;
+      font:  20px Arial;
+  }
